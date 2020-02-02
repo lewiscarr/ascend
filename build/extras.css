@@ -99,11 +99,11 @@ ion-app.app-root addon-calendar-calendar .addon-calendar-day.today .addon-calend
 	/* In-course dividers */
 }
 button.alert-button.alert-button-md.alert-button-default.alert-button-default-md.ng-star-inserted {
-	color: #004c9c;
+	color: #7F7B9D;
 }
 
 button.alert-button.alert-button.alert-button-default.alert-button-default.ng-star-inserted {
-	color: #004c9c;
+	color: #7F7B9D;
 }
 .select-text.ng-star-inserted {
 	color: #000;
@@ -127,18 +127,7 @@ button.alert-button.alert-button.alert-button-default.alert-button-default.ng-st
 [dir=ltr] ion-app.app-root .core-primary-selected-item {
 	border-left: calc(env(safe-area-inset-left) + 5px) solid #29235C;
 }
-ion-icon.icon.icon-md.ion-ios-arrow-back {
-	color: #fff;
-}
-ion-icon.icon.icon.ion-ios-arrow-back {
-	color: #fff;
-}
-ion-icon.icon.icon-md.ion-ios-arrow-forward {
-	color: #fff;
-}
-ion-icon.icon.icon.ion-ios-arrow-forward {
-	color: #fff;
-}
+
 .item-divider-md-light, .item-md-light {
 	color: #fff;
 	background-color: #7F7B9D;
@@ -224,7 +213,9 @@ ion-app.app-root page-core-user-profile .core-user-communication-handlers .core-
 .action-sheet .action-sheet-title {
 	color: #29235C;
 }
-
+.core-course-thumb.core-course-color-img {
+	display: none;
+}
 span.core-button-select-text {
 	color: #29235C;
 }
@@ -249,15 +240,21 @@ ion-icon.icon.icon.ion-arrow-dropdown {
 ion-app.app-root core-block .item-divider .icon {
 	color: #fff!important;
 }
-
+.core-course-thumb.core-course-color-img {
+	display: none!important;
+}
 a.button.button-md.button-default.button-default-md.button-block.button-block-md.item-button.ng-star-inserted {
 	background: #29235C;
 }
 a.button.button.button-default.button-default.button-block.button-block.item-button.ng-star-inserted {
 	background: #29235C;
 }
-
-
+ion-app.app-root core-courses-course-progress ion-card.card .core-course-thumb.core-course-color-img {
+	display: none
+}
+ion-app.app-root core-courses-course-progress ion-card.card .core-course-thumb img {
+	display: none
+}
 button.disable-hover.core-user-profile-handler.addon-messages-removecontact-handler.button.button-md.button-outline.button-outline-md.button-block.button-block-md.item-button.ng-star-inserted {
 	border-color: blue;
 	color: #29235C;
@@ -298,9 +295,7 @@ a.disable-hover.button.button.button-default.button-default.button-block.button-
 .core-button-select {
 	color: #29235C!important;
 }
-ion-app.app-root.md .button-md-light {
-	color: #29235C!important;
-}
+
 ion-app.app-root .button-light {
 	color: #29235C!important;
 }
@@ -329,7 +324,9 @@ a.disable-hover.button.button-md.button-default.button-default-md.button-block.b
 a.disable-hover.button.button.button-default.button-default.button-block.button-block.button-light.ng-star-inserted {
 	background: #fff;
 }
-
+.core-course-thumb.core-course-color-img {
+	display: none;
+}
 
 
 
@@ -372,13 +369,11 @@ ion-app.app-root.ios .button-ios-light {
 }
 
 
-ion-app.app-root.md .button-md-light {
-    color: #fff!important;
-}
+
 
 .button-md-light {
     
-    background-color: #7F7B9D;
+    background-color: #386da4;
 }
 
 
@@ -493,12 +488,7 @@ ion-item-divider.item.item-divider.item-md.item-divider-md h2 {
 
 
 
-.toolbar-ios-light .toolbar-background-ios {
-    background: #7F7B9D!important;
-}
-.toolbar-md-light .toolbar-background-md {
-    background: #7F7B9D!important;
-}
+
 
 ion-item-divider.item.item-divider.item-md.item-divider-md p {
     color: #fff;
@@ -603,4 +593,110 @@ a.item.item-block.item-ios .button-ios {
    color: #29235C!important;
 }
 
+button#core-course-section-button span.core-button-select-text {
+    color: #29235C!important
+}
 
+
+ ion-icon.icon.icon-ios.ion-md-arrow-dropdown {
+    color: #29235C!important
+}
+
+
+.toolbar-ios-light .toolbar-background-ios {
+background: inherit;	
+}
+
+
+.toolbar-md-light .toolbar-background-md {
+background: inherit;	
+}
+
+
+
+
+
+
+
+
+ion-app.app-root page-addon-mod-lesson-player .addon-mod_lesson-pagebuttons .button-block {
+    background: #29235C!important;
+    color: #fff!important;
+}
+
+span.core-button-select-text {
+   color: #29235C!important;
+}
+
+
+
+
+
+
+
+
+ion-label {
+	color:#000!important;
+}
+
+
+.core-button-select-text {
+	color: #29235C!important;
+}
+
+span.core-button-select-text {
+	color: #29235C!important;
+}
+
+
+ion-app.app-root core-course-format .item-divider core-format-text {
+  
+    color: #fff;
+}
+
+
+ion-item-divider.item.item-divider.item.item-divider ion-label.label.label-md.ng-star-inserted {
+    color: #fff!important;
+}
+
+
+
+
+p.item-heading.core-siteurl.ng-star-inserted {
+    display: none;
+}
+
+
+a.disable-hover.button.button-md.button-default.button-default-md.button-block.button-block-md.button-md-light {
+color: #fff!important
+}
+
+
+
+button.disable-hover.button.button.button-default.button-default.button-full.button-full.button-light {
+    color: #fff!important;
+}
+
+button.disable-hover.button.button-md.button-default.button-default-md.button-full.button-full-md.button-md-light {
+    color: #fff!important;
+}
+
+ion-app.app-root.md .button-md-light {
+color:#fff;	
+}
+
+
+.loading-md .spinner-crescent circle {
+    stroke: #29235C;
+}
+
+.spinner-md-crescent circle {
+    stroke: #29235C;
+}
+.loading .spinner-crescent circle {
+    stroke: #29235C;
+}
+
+.spinner-crescent circle {
+    stroke: #29235C;
+}

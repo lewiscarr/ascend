@@ -2,14 +2,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.tituslearning.edtmlearning"
+        id        = "com.tituslearning.ascend"
         versionCode = "38000"
         android-versionCode="38000"
         version   = "3.7.5">
-    <name>EDT M-Learning</name>
+    <name>Ascend Diabetes</name>
 
     <description>
-        EDT M-Learning App
+        Ascend Diabetes
     </description>
 
      <author href="http://tituslearning.com" email="mobile@tituslearning.com">
@@ -142,7 +142,7 @@
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="0.8.8" />
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="4.1.0" />
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" spec="4.4.0">
-        <param name="URL_SCHEME" value="edtmlearning" />
+        <param name="URL_SCHEME" value="ascend" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" spec="2.0.3" />
     <gap:plugin name="cordova-plugin-file" source="npm" spec="6.0.2" />
@@ -192,10 +192,10 @@
 
     <!-- Disable firebase analytics. -->
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
-        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
+        <meta-data android:name="firebase_analytics_collection_deactivated" android:value="false" />
     </config-file>
     <config-file target="*-Info.plist" parent="FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED">
-        <string>YES</string>
+        <string>NO</string>
     </config-file>
 
     <config-file target="*-Info.plist" parent="CFBundleDocumentTypes">

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1006561324475-oh01c3uv8nqoe9f7vgs76s8h37e39abo.apps.googleusercontent.com</string>
+	<string>981291247202-a9op5lr2ia86bumaf0mpclt97lji2ba1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1006561324475-oh01c3uv8nqoe9f7vgs76s8h37e39abo</string>
+	<string>com.googleusercontent.apps.981291247202-a9op5lr2ia86bumaf0mpclt97lji2ba1</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBZSb8wEu_GvbXCSilODJqPDdAx6tEUftU</string>
+	<string>AIzaSyAIWMi8ywOcd6-GZeSr2E_2jbuGW4NtGtE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1006561324475</string>
+	<string>981291247202</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.tituslearning.edtmlearning</string>
+	<string>com.tituslearning.ascend</string>
 	<key>PROJECT_ID</key>
-	<string>edtmlearning</string>
+	<string>ascend-diabetes</string>
 	<key>STORAGE_BUCKET</key>
-	<string>edtmlearning.appspot.com</string>
+	<string>ascend-diabetes.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1006561324475:ios:3ca2dfc3a46ae19c23689e</string>
+	<string>1:981291247202:ios:22bc1466aa3e032355533b</string>
 	<key>DATABASE_URL</key>
-	<string>https://edtmlearning.firebaseio.com</string>
+	<string>https://ascend-diabetes.firebaseio.com</string>
 </dict>
 </plist>

@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "1006561324475",
-    "firebase_url": "https://edtmlearning.firebaseio.com",
-    "project_id": "edtmlearning",
-    "storage_bucket": "edtmlearning.appspot.com"
+    "project_number": "981291247202",
+    "firebase_url": "https://ascend-diabetes.firebaseio.com",
+    "project_id": "ascend-diabetes",
+    "storage_bucket": "ascend-diabetes.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1006561324475:android:0558a38c8813057223689e",
+        "mobilesdk_app_id": "1:981291247202:android:02e2a07c52735e6c55533b",
         "android_client_info": {
-          "package_name": "com.tituslearning.edtmlearning"
+          "package_name": "com.tituslearning.ascend"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1006561324475-vk02labjgjntktolg8as8fi1pj0tctcr.apps.googleusercontent.com",
+          "client_id": "981291247202-qi68875u2055bbqs1urs7mni5orfres1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDnqBW8KZDCrkqF-PsfzhopX9RiyOBOIw4"
+          "current_key": "AIzaSyDQJO73Uw9E0nrTMXUVjN55kvermUrPt1I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1006561324475-vk02labjgjntktolg8as8fi1pj0tctcr.apps.googleusercontent.com",
+              "client_id": "981291247202-qi68875u2055bbqs1urs7mni5orfres1.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1006561324475-oh01c3uv8nqoe9f7vgs76s8h37e39abo.apps.googleusercontent.com",
+              "client_id": "981291247202-a9op5lr2ia86bumaf0mpclt97lji2ba1.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.tituslearning.edtmlearning"
+                "bundle_id": "com.tituslearning.ascend"
               }
             }
           ]
