@@ -99,11 +99,11 @@ ion-app.app-root addon-calendar-calendar .addon-calendar-day.today .addon-calend
 	/* In-course dividers */
 }
 button.alert-button.alert-button-md.alert-button-default.alert-button-default-md.ng-star-inserted {
-	color: #7F7B9D;
+	color: #29235C;
 }
 
 button.alert-button.alert-button.alert-button-default.alert-button-default.ng-star-inserted {
-	color: #7F7B9D;
+	color: #29235C;
 }
 .select-text.ng-star-inserted {
 	color: #000;
@@ -373,7 +373,7 @@ ion-app.app-root.ios .button-ios-light {
 
 .button-md-light {
     
-    background-color: #386da4;
+    background-color: #00A19A;
 }
 
 
@@ -700,3 +700,15 @@ color:#fff;
 .spinner-crescent circle {
     stroke: #29235C;
 }
+
+
+.badge-md {
+   
+    background-color: #29235C;
+    }
+
+
+.badge {
+   
+    background-color: #29235C;
+    }
